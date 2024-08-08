@@ -1,0 +1,159 @@
+#main {
+
+    border: 1px solid red;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wether {
+
+    border: 2px solid green;
+    min-height: 60vh;
+    width: 25%;
+    border-radius:1vw;
+     background-color:rgba(255, 255, 255, 0.017)
+
+}
+
+nav {
+    /* border: 2px solid blue; */
+    margin-top: 2vh;
+    padding-left: 1vw;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1vw;
+
+}
+
+
+.serch {
+    height: 5vh;
+    border: 2px solid black;
+    width: 15vw;
+    border-radius: 10px;
+    background-color: rgba(127, 255, 212, 0.365);
+}
+
+.button {
+
+    height: 5.5vh;
+    background-color: rgba(127, 255, 212, 0.365);
+    border: none;
+    padding: 1vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#center {
+
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: -1vw;
+    padding-top: 2vw;
+}
+
+#center img {
+
+    height: 10vw;
+}
+
+.dgree {
+
+
+    /* border: 2px solid red; */
+    height: 10vh;
+    line-height: 0vw;
+    text-align: center;
+    padding-top: 1vw;
+}
+
+
+.dgree>h2 {
+
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.dgree>p {
+
+    font-weight: 900;
+    font-size: 1.2vw;
+}
+
+.bottom {
+
+    /* border: 2px solid gray; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity {
+
+    line-height: 0.4;
+    /* border: 2px solid blue; */
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height:0.2;
+    gap: 1vw;
+    padding-left: 1vw;
+    padding-top:2vw;
+    padding-bottom: 2vw;
+
+}
+
+.humidity1>h1{
+
+    font-size:1.6vw;
+}
+
+.humidity1>p{
+
+    font-size: 1.1vw;
+}
+
+.humidity>i {
+
+    font-size: 2.5vw;
+}
+
+.humidity>p {
+
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+
+.bottom2>img{
+
+    height:3vw;
+}
+
+.bottom2{
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    line-height: 0;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1vw;
+    gap: 1vw;
+}
+
+.bottom3>h2{
+
+   font-size:1.6vw;
+}
+
+.bottom3>p{
+
+    font-size: 1.1vw;
+}
